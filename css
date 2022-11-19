@@ -1,0 +1,55 @@
+ *, *::before, *::after {
+    box-sizing: inherit;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    nav{
+      background:#be3144;;
+      position:fixed;
+      width:100%;
+      height:3rem;
+      top:0px;
+      z-index:12
+      
+    }
+    #navbar {
+      display: flex;
+      flex-direction:row;
+       gap: 2rem;
+        justify-content: right;
+        align-item:center;
+        text-align: center;
+    }
+    #navbar a{
+      color:white;
+      font-size:1.8rem;       text-decoration: none;
+    }
+    #welcome-section {
+      margin-top: 45px;
+      width: 100%;
+      height:100vh;
+      background-color:#303841;
+      text-align: center;
+      justify-content: center;
+       align-items: center;
+       text-align: center;
+        
+       
+    }
+     #welcome-section h1 {
+       color: white;
+        justify-content:center;
+        align-items: center;
+        font-weight: 400;
+        font-size: 56px;
+       /* line-height: 64px; */
+     
+    
+     }
+    @media screen(max-width:864px){
+      div{
+        display:flex;
+      }
+    }
